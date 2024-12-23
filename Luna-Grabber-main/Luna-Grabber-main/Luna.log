@@ -1,0 +1,41 @@
+[PngImagePlugin.py:198] - 2024-12-23 18:05:49,510 - DEBUG - STREAM b'IHDR' 16 13
+[PngImagePlugin.py:198] - 2024-12-23 18:05:49,510 - DEBUG - STREAM b'sRGB' 41 1
+[PngImagePlugin.py:198] - 2024-12-23 18:05:49,510 - DEBUG - STREAM b'IDAT' 54 8192
+[PngImagePlugin.py:198] - 2024-12-23 18:05:49,511 - DEBUG - STREAM b'IHDR' 16 13
+[PngImagePlugin.py:198] - 2024-12-23 18:05:49,511 - DEBUG - STREAM b'sRGB' 41 1
+[PngImagePlugin.py:198] - 2024-12-23 18:05:49,511 - DEBUG - STREAM b'IDAT' 54 8192
+[PngImagePlugin.py:198] - 2024-12-23 18:05:49,511 - DEBUG - STREAM b'IHDR' 16 13
+[PngImagePlugin.py:198] - 2024-12-23 18:05:49,511 - DEBUG - STREAM b'sRGB' 41 1
+[PngImagePlugin.py:198] - 2024-12-23 18:05:49,511 - DEBUG - STREAM b'IDAT' 54 8192
+[PngImagePlugin.py:198] - 2024-12-23 18:05:49,517 - DEBUG - STREAM b'IHDR' 16 13
+[PngImagePlugin.py:198] - 2024-12-23 18:05:49,517 - DEBUG - STREAM b'sRGB' 41 1
+[PngImagePlugin.py:198] - 2024-12-23 18:05:49,517 - DEBUG - STREAM b'gAMA' 54 4
+[PngImagePlugin.py:198] - 2024-12-23 18:05:49,517 - DEBUG - STREAM b'pHYs' 70 9
+[PngImagePlugin.py:198] - 2024-12-23 18:05:49,517 - DEBUG - STREAM b'IDAT' 91 766
+[PngImagePlugin.py:198] - 2024-12-23 18:05:49,523 - DEBUG - STREAM b'IHDR' 16 13
+[PngImagePlugin.py:198] - 2024-12-23 18:05:49,523 - DEBUG - STREAM b'sRGB' 41 1
+[PngImagePlugin.py:198] - 2024-12-23 18:05:49,523 - DEBUG - STREAM b'gAMA' 54 4
+[PngImagePlugin.py:198] - 2024-12-23 18:05:49,523 - DEBUG - STREAM b'pHYs' 70 9
+[PngImagePlugin.py:198] - 2024-12-23 18:05:49,523 - DEBUG - STREAM b'IDAT' 91 601
+[PngImagePlugin.py:198] - 2024-12-23 18:05:49,532 - DEBUG - STREAM b'IHDR' 16 13
+[PngImagePlugin.py:198] - 2024-12-23 18:05:49,532 - DEBUG - STREAM b'sRGB' 41 1
+[PngImagePlugin.py:198] - 2024-12-23 18:05:49,533 - DEBUG - STREAM b'gAMA' 54 4
+[PngImagePlugin.py:198] - 2024-12-23 18:05:49,533 - DEBUG - STREAM b'pHYs' 70 9
+[PngImagePlugin.py:198] - 2024-12-23 18:05:49,533 - DEBUG - STREAM b'IDAT' 91 1063
+[builder.py:514] - 2024-12-23 18:06:33,796 - INFO - Retrieved filename: imagen
+[builder.py:335] - 2024-12-23 18:06:33,797 - ERROR - Invalid webhook format: 
+[builder.py:821] - 2024-12-23 18:06:33,797 - ERROR - Webhook not valid. Aborting compilation.
+[builder.py:514] - 2024-12-23 18:07:55,107 - INFO - Retrieved filename: imagen
+[connectionpool.py:1049] - 2024-12-23 18:07:55,109 - DEBUG - Starting new HTTPS connection (1): discord.com:443
+[connectionpool.py:544] - 2024-12-23 18:07:55,357 - DEBUG - https://discord.com:443 "GET /api/webhooks/1320437355164864512/Fv69y7Dl8r1aWZWjHcg1hsXqFmDILcfuTGYNe-9gN1JN6cfrgxcgmPigekjQTF5AiuK3 HTTP/1.1" 200 None
+[builder.py:514] - 2024-12-23 18:07:55,430 - INFO - Retrieved filename: imagen
+[builder.py:573] - 2024-12-23 18:07:55,433 - INFO - Successfully changed config
+[builder.py:807] - 2024-12-23 18:07:57,733 - INFO - Successfully obfuscated file: imagen.py
+[builder.py:491] - 2024-12-23 18:07:57,733 - INFO - Changed filetype: pyinstaller (.exe)
+[builder.py:491] - 2024-12-23 18:07:57,733 - INFO - Changed filetype: pyinstaller (.exe)
+[builder.py:573] - 2024-12-23 18:07:59,315 - INFO - Successfully changed config
+[builder.py:807] - 2024-12-23 18:08:02,257 - INFO - Successfully obfuscated file: loader-o.py
+[connectionpool.py:1049] - 2024-12-23 18:08:02,258 - DEBUG - Starting new HTTPS connection (1): github.com:443
+[connectionpool.py:544] - 2024-12-23 18:08:02,527 - DEBUG - https://github.com:443 "GET /upx/upx/releases/download/v4.2.4/upx-4.2.4-win64.zip HTTP/1.1" 302 0
+[connectionpool.py:1049] - 2024-12-23 18:08:02,528 - DEBUG - Starting new HTTPS connection (1): objects.githubusercontent.com:443
+[connectionpool.py:544] - 2024-12-23 18:08:02,976 - DEBUG - https://objects.githubusercontent.com:443 "GET /github-production-release-asset-2e65be/67031040/8d44b6a4-2c22-4e41-b581-be3e421c744e?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20241223%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241223T170713Z&X-Amz-Expires=300&X-Amz-Signature=49d673452d5c7ccf738ddd87f9fe3b0a79a0defd669c33bfee04e29d1a697b51&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dupx-4.2.4-win64.zip&response-content-type=application%2Foctet-stream HTTP/1.1" 200 613368
